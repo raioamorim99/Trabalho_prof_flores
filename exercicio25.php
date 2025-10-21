@@ -1,3 +1,4 @@
+<?php
 /******************************************************************************
 Curso: Engenharia de Software
 Disciplina: Linguagem e Técnicas de Programação
@@ -17,7 +18,6 @@ Data: 08 de Outubro de 2025
 Descritivo: Crie um array de números e use a função count() para mostrar quantos elementos ele possui.
 *******************************************************************************/
 
-<?php
 $numeros = [1, 2, 3, 4, 5];
 echo 'Quantidade de elementos: ' . count($numeros);
 ?>
