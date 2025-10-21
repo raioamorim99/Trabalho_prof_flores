@@ -1,3 +1,4 @@
+<?php
 /******************************************************************************
 Curso: Engenharia de Software
 Disciplina: Linguagem e Técnicas de Programação
@@ -17,7 +18,6 @@ Data: 08 de Outubro de 2025
 Descritivo: Crie um array de frutas. Escreva um código que verifique se a fruta 'Maçã' existe no array.
 *******************************************************************************/
 
-<?php
 $frutas = ['Banana', 'Maçã', 'Uva', 'Laranja'];
 if (in_array('Maçã', $frutas)) echo 'Maçã encontrada!'; else echo 'Maçã não encontrada!';
 ?>
