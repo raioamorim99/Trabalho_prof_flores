@@ -1,3 +1,4 @@
+<?php
 /******************************************************************************
 Curso: Engenharia de Software
 Disciplina: Linguagem e Técnicas de Programação
@@ -17,7 +18,6 @@ Data: 08 de Outubro de 2025
 Descritivo: Dado um array de números [12, 5, 23, 18, 9, 45], imprima apenas os números maiores que 20.
 *******************************************************************************/
 
-<?php
 $numeros = [12, 5, 23, 18, 9, 45];
 foreach ($numeros as $n) if ($n > 20) echo $n . ' ';
 ?>
