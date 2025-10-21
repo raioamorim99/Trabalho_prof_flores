@@ -1,3 +1,4 @@
+<?php
 /******************************************************************************
 Curso: Engenharia de Software
 Disciplina: Linguagem e Técnicas de Programação
@@ -17,7 +18,6 @@ Data: 08 de Outubro de 2025
 Descritivo: Crie um procedimento mostrarDados que receba nome, idade e cidade e os imprima de forma organizada.
 *******************************************************************************/
 
-<?php
 function mostrarDados($nome, $idade, $cidade){
   echo "Nome: $nome\nIdade: $idade\nCidade: $cidade";
 }
