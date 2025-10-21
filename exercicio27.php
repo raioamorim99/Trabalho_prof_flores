@@ -1,3 +1,4 @@
+<?php
 /******************************************************************************
 Curso: Engenharia de Software
 Disciplina: Linguagem e Técnicas de Programação
@@ -17,7 +18,6 @@ Data: 08 de Outubro de 2025
 Descritivo: Crie um array com as notas de um aluno em 4 disciplinas e calcule a média.
 *******************************************************************************/
 
-<?php
 $notas = [7.5, 8.0, 6.5, 9.0];
 $media = array_sum($notas)/count($notas);
 echo 'Média: ' . $media;
