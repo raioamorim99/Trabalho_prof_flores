@@ -1,3 +1,4 @@
+<?php
 /******************************************************************************
 Curso: Engenharia de Software
 Disciplina: Linguagem e Técnicas de Programação
@@ -17,7 +18,6 @@ Data: 08 de Outubro de 2025
 Descritivo: Crie uma matriz 3x3 (array de arrays) e preencha-a com números. Imprima o elemento da segunda linha e terceira coluna.
 *******************************************************************************/
 
-<?php
 $matriz = [[1,2,3],[4,5,6],[7,8,9]];
 echo 'Elemento [2][3]: ' . $matriz[1][2];
 ?>
